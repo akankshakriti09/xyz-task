@@ -1,0 +1,184 @@
+.common-dark-blue {
+    background-color: #071a45;
+    color: #fff;
+}
+
+.common-dark-blue-text {
+    color: #071a45;
+}
+
+.common-dark-skyblue-text {
+    color: #2c8fb5;
+}
+
+.hover-color:hover {
+    font-weight: 500;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.background-two {
+    background-image: url('../assets/images/house.png') !important;
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 100%;
+    background-size: 100%;
+    /* top: 867px; */
+    border-radius: 240px, 240px, 0px, 0px;
+
+}
+
+.line-color {
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, #000000 50.5%, rgba(0, 0, 0, 0.05) 100%);
+    width: 400px;
+    border: 1px;
+}
+
+.card-length {
+    width: 320px;
+    height: 320px;
+    border-radius: 40px;
+}
+
+.card-heading {
+    /* font-family: Lato; */
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color: #071a45;
+}
+
+.card-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    /* text-align: justify; */
+    color: rgba(7, 26, 69, 0.7);
+}
+
+.card-more-btn {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: rgba(7, 26, 69, 0.7);
+}
+
+.banner-container-one {
+    height: 235px;
+    background: linear-gradient(93.39deg, #C5D9E0 0.4%, #A7C8D7 49.33%, #9FC7D7 104.99%);
+}
+
+.banner-container-two {
+    background-image: url('../assets/images/banner2.png');
+    background-repeat: no-repeat;
+    height: 862px;
+    width: 100%;
+}
+
+.btn-customise {
+    width: 323px;
+    height: 58px;
+    padding: 16px, 16px, 16px, 24px;
+    border-radius: 40px;
+    background-color: rgba(58, 125, 255, 1);
+}
+
+.footer-Heading-text {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footer-button {
+    width: 168px;
+    height: 58px;
+    top: 252px;
+    left: 80px;
+    padding: 16px, 16px, 16px, 24px;
+    border-radius: 40px;
+    border: 1px;
+    gap: 16px;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+
+.submit-btn {
+    width: 300px;
+    height: 42px;
+    padding: 11px, 0px, 11px, 0px;
+    border-radius: 8px;
+    background: rgba(58, 125, 255, 1);
+}
+
+.custom-input {
+    width: 300px;
+    height: 42px;
+    padding: 11px, 228px, 11px, 16px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.banner-color-custom {
+    height: 966px;
+    padding: 80px, 72px, 80px, 72px;
+    background: rgba(214, 233, 240, 1);
+}
+
+.digit-custom {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 90px;
+    letter-spacing: 0em;
+}
+
+.custom-border {
+    border-left: 3px solid;
+    border-image: linear-gradient(90deg, black, white);
+    border-image-slice: 1;
+    /* border-color: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, #000000 50.5%, rgba(0, 0, 0, 0.05) 100%); */
+}
+
+.card-custom-heading {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: rgba(7, 26, 69);
+}
+
+.custom-box {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background: rgba(44, 143, 181, 1);
+}
+
+.card-custom-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: rgba(7, 26, 69, 0.7);
+}
+
+.btn{
+    display: flex;
+}
+
+.btn-customise{
+    justify-content: flex-end;
+}
